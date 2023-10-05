@@ -9,7 +9,7 @@
        
     },
     "db": {
-        "name": "schoolERP",
+        "name": "sDirect",
         "host": "localhost",
          "port": 27017,
          "mongoose": {
