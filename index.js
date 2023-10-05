@@ -10,7 +10,8 @@ const { port } = config.get("app")
 
 // port = "3030"
 const mongoose = require('mongoose')
-const url = "mongodb://localhost:27017/sDirect"
+// const url = "mongodb://localhost:27017/sDirect"
+const url = "mongodb+srv://shimpiraj29:0kGfg27MIYQGKDZj@cluster1.3nltbmu.mongodb.net/vp_portal?retryWrites=true&w=majority"
 const http = require('http')
 const userRouter = require('./router/user-router')
 const path = require("path");
